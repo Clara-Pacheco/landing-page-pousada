@@ -33,7 +33,6 @@ a {
 
 header {
   height: 12vh;
-  background-color: black;
 }
 
 .img-logo {
@@ -72,9 +71,9 @@ header ul li {
 }
 
 header ul li a {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  color: white;
+  color: #524446;
   transition: 0.5s;
 }
 
@@ -146,4 +145,77 @@ header ul li a:hover {
   z-index: -1;
   width: 100%;
   height: 100%;
+}
+
+.inicio .text {
+  max-width: 50%;
+  color: black;
+  font-weight: 500;
+  margin: 5% 0 0 10%;
+}
+
+.inicio h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #524446;
+}
+
+.inicio h1 span {
+  font-size: 80px;
+  color: #537cb6;
+}
+.inicio p {
+  font-weight: 500;
+  line-height: 25px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 50px 0 0 50px;
+}
+
+.inicio button {
+  padding: 20px 40px;
+  background: none;
+  outline: none;
+  border: 2px solid #524446;
+  border-radius: 50px;
+  color: #524446;
+  margin-top: 20px;
+}
+
+.inicio button {
+  margin-left: 50px;
+}
+
+.inicio .image_item {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.inicio .image_item img {
+  width: 140px;
+  height: 94px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.inicio .image_item img.active {
+  border: 2px solid white;
+}
+
+.inicio .box .text {
+  position: relative;
+}
+
+.inicio .box .text::after {
+  position: absolute;
+  content: "M";
+  font-size: 500px;
+  top: -30%;
+  left: 10%;
+  font-weight: bold;
+  opacity: 0.1;
 }
