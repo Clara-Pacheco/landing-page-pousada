@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -35,7 +33,7 @@ a {
 
 header {
   height: 12vh;
-  background-color: blue;
+  background-color: black;
 }
 
 .img-logo {
@@ -137,4 +135,15 @@ header ul li a:hover {
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+/*----------------Início-----------------------*/
+
+.inicio .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
