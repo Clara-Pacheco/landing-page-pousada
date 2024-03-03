@@ -21,11 +21,21 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.head_container {
+  max-width: 90%;
+  margin: auto;
+}
+
 /*----------------header-----------------------*/
 
 header {
   height: 12vh;
-  border: 1px solid red;
+  background-color: blue;
 }
 
 .img-logo {
@@ -38,7 +48,6 @@ header nav {
   justify-content: space-between;
   align-items: center;
   padding-top: 15px;
-  border: 1px solid green;
 }
 
 .hamburguer {
@@ -52,16 +61,80 @@ header nav {
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
-  border: 1px solid yellow;
 }
 
 header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid brown;
+}
+
+header ul li {
+  margin-left: 3rem;
 }
 
 header ul li a {
-  margin-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: #c1b086;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 9vh;
+  }
+
+  .img-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  header ul {
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+    box-shadown: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 20;
+  }
+
+  header ul.active {
+    left: 0%;
+  }
+
+  header ul li {
+    margin: 2.5rem 0;
+  }
+
+  header ul li a {
+    color: black;
+  }
+
+  .hamburguer {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburguer.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburguer.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
