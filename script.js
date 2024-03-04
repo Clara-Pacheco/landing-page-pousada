@@ -27,8 +27,8 @@ function closeMenu() {
 function img(anything) {
   backgroundImg.src = anything;
   h1.style.color = "white";
-  span.style.color = "#CDC6EF";
-  p.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+  span.style.color = "#9D89FA";
+  p.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
   buttonHome.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
 
   navLink.forEach((element) => {
