@@ -230,3 +230,80 @@ header ul li a:hover {
 .changeColor {
   color: #c1b086;
 }
+
+/*----------------Sobre-----------------------*/
+.containerSobre {
+  display: flex;
+  flex-direction: row;
+}
+.top {
+  margin-top: 15%;
+}
+
+.mtop {
+  margin-top: 5%;
+}
+
+.left,
+.right {
+  width: 50vw;
+}
+
+.sobre {
+  margin-bottom: 50px;
+}
+
+.sobre .img {
+  position: relative;
+}
+
+.sobre .image1 {
+  width: 500px;
+  height: 450px;
+}
+.sobre .image1 {
+  position: absolute;
+  left: 100px;
+}
+.sobre .image2 {
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  bottom: -560px;
+  z-index: 2;
+  right: 6%;
+}
+
+.heading {
+  position: relative;
+}
+.heading::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: #c1b086;
+}
+
+.heading h4 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: #5f5f5f;
+}
+
+.heading h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+  color: #222222;
+}
+
+.heading p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  color: #5f5f5f;
+  margin: 0 0 20px 3px;
+}
