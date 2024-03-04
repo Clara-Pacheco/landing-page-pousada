@@ -158,33 +158,40 @@ header ul li a:hover {
   font-size: 60px;
   font-weight: 500;
   color: #524446;
+  text-shadow: 1px 1px 2px black;
 }
 
 .inicio h1 span {
   font-size: 80px;
   color: #537cb6;
+  text-shadow: 1px 1px 2px black;
 }
 .inicio p {
   font-weight: 500;
   line-height: 25px;
   font-family: sans-serif;
   font-size: 20px;
-  margin: 50px 0 0 50px;
+  margin-top: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background-opacity: 0.2;
+  padding: 15px;
 }
 
 .inicio button {
   padding: 20px 40px;
-  background: none;
+  background: rgba(255, 255, 255, 0.5);
   outline: none;
   border: 2px solid #524446;
   border-radius: 50px;
   color: #524446;
   margin-top: 20px;
+  font-weight: bold;
 }
 
-.inicio button {
+/* .inicio button {
   margin-left: 50px;
-}
+} */
 
 .inicio .image_item {
   position: absolute;
@@ -218,4 +225,8 @@ header ul li a:hover {
   left: 10%;
   font-weight: bold;
   opacity: 0.1;
+}
+
+.changeColor {
+  color: #c1b086;
 }
