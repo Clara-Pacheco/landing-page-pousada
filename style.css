@@ -308,6 +308,8 @@ header ul li a:hover {
   margin: 0 0 20px 3px;
 }
 
+/*----------------Wrapper1-----------------------*/
+
 .wrapper {
   background-image: url("/assets/c16.jpg");
   background-repeat: no-repeat;
@@ -323,7 +325,7 @@ header ul li a:hover {
   width: 30%;
   height: 600px;
   position: absolute;
-  top: 60px;
+  top: 40px;
   right: 50px;
 
   /* padding-top: 10%; */
@@ -347,4 +349,152 @@ header ul li a:hover {
 
 .wrapper i {
   margin: 5px 20px 0 0;
+}
+
+/*----------------Quartos-----------------------*/
+.topQuartos {
+  margin: 80px;
+}
+.quartos .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.imgQuarto1,
+.imgQuarto2,
+.imgQuarto3,
+.imgQuarto4,
+.imgQuarto5 {
+  width: 550px;
+}
+
+.imgQuarto3 {
+  width: 550px;
+  height: 412px;
+}
+.imgQuarto4 {
+  width: 550px;
+  height: 414px;
+}
+
+.quartos .boxQuartos {
+  box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
+}
+
+.quartos .text {
+  padding: 20px;
+}
+
+.quartos h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quartos p {
+  font-size: 20px;
+}
+
+/*----------------Wrapper2-----------------------*/
+
+.wrapper2 {
+  background-image: url("../assets/cn15.jpg");
+  background-position: center;
+}
+
+.wrapper2 .text {
+  left: 10%;
+}
+
+.wrapper2 h5,
+.wrapper2 h2 {
+  color: white;
+}
+
+.wrapper2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.wrapper2 .para h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.wrapper2 .para {
+  margin-left: 10%;
+}
+
+/*----------------Wrapper3-----------------------*/
+
+.wrapper3 {
+  background-image: url("../assets/cn16.jpg");
+  background-position: center;
+}
+
+/*----------------Wrapper4-----------------------*/
+
+.wrapper4 {
+  background-image: url("../assets/cn18.jpg");
+  background-position: center;
+}
+
+/*----------------Breakfast-----------------------*/
+
+.flex1 {
+  display: flex;
+}
+
+.breakfast img {
+  width: 100%;
+  height: 100%;
+}
+
+.breakfast .right {
+  padding: 50px 50px 50px 100px;
+}
+
+.breakfast h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.breakfast .text p {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+/*----------------Carrosel-----------------------*/
+
+.swiper-slide img {
+  box-shadow: 0 1px 2px #0003;
+  width: 800px;
+  height: 700px;
+}
+
+.swiper {
+  margin-top: 100px;
+  height: 700px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+/*----------------Map-----------------------*/
+
+.map iframe {
+  width: 100%;
 }
