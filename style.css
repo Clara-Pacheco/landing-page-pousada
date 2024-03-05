@@ -314,7 +314,7 @@ header ul li a:hover {
   background-image: url("/assets/c16.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   height: 680px;
   position: relative;
 }
@@ -424,14 +424,14 @@ header ul li a:hover {
   margin-top: 5px;
 }
 
-.wrapper2 .para {
+/* .wrapper2 .para {
   margin-left: 10%;
-}
+} */
 
 /*----------------Wrapper3-----------------------*/
 
 .wrapper3 {
-  background-image: url("../assets/cn16.jpg");
+  background-image: url("../assets/cn11.jpg");
   background-position: center;
 }
 
