@@ -237,21 +237,24 @@ header ul li a:hover {
   flex-direction: row;
 }
 .top {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .mtop {
   margin-top: 5%;
 }
 
-.left,
 .right {
+  width: 40%;
+}
+
+.left {
   width: 50vw;
 }
 
-.sobre {
-  margin-bottom: 50px;
-}
+/* .sobre {
+  margin-bottom: 40px;
+} */
 
 .sobre .img {
   position: relative;
@@ -315,7 +318,7 @@ header ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   /* width: 100%; */
-  height: 680px;
+  height: 1000px;
   position: relative;
 }
 
@@ -323,12 +326,12 @@ header ul li a:hover {
   background: #3f9cc1;
   padding: 50px;
   width: 30%;
-  height: 600px;
+  height: 950px;
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 50px;
 
-  /* padding-top: 10%; */
+  padding-top: 100px;
   color: white;
 }
 
@@ -400,6 +403,7 @@ header ul li a:hover {
 .wrapper2 {
   background-image: url("../assets/cn15.jpg");
   background-position: center;
+  height: 600px;
 }
 
 .wrapper2 .text {
@@ -424,9 +428,16 @@ header ul li a:hover {
   margin-top: 5px;
 }
 
-/* .wrapper2 .para {
-  margin-left: 10%;
-} */
+.wrapper2 .text {
+  /* background-color: red; */
+  height: 500px;
+  padding-top: 40px;
+}
+.wrapper4 .text {
+  /* background-color: red; */
+  height: 550px;
+  padding-top: 40px;
+}
 
 /*----------------Wrapper3-----------------------*/
 
@@ -479,7 +490,7 @@ header ul li a:hover {
 
 .swiper {
   margin-top: 100px;
-  height: 700px;
+  height: 730px;
 }
 
 .swiper-slide {
@@ -600,7 +611,7 @@ footer li:hover {
     padding: 80px;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 250px;
   }
 
@@ -658,7 +669,15 @@ footer li:hover {
     width: 80%;
     margin-left: 50px;
     padding: 30px;
-    height: 600px;
+    height: 1000px;
+    margin-right: 0;
+  }
+
+  .wrapper2 .text {
+    width: 90%;
+    margin-left: 50px;
+    padding: 30px;
+    height: 620px;
     margin-right: 0;
   }
 
