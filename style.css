@@ -418,6 +418,8 @@ header ul li a:hover {
     align-items: center;
 
     padding: 30px;
+
+    font-weight: 400;
   }
   .right {
     width: 100%;
