@@ -625,6 +625,55 @@ header ul li a:hover {
   font-size: 20px;
 }
 
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .topQuartos {
+    margin-top: 50px;
+  }
+  .quartos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quartos .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  .imgQuarto1,
+  .imgQuarto2,
+  .imgQuarto3,
+  .imgQuarto4,
+  .imgQuarto5 {
+    width: 530px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .topQuartos {
+    margin-top: 50px;
+  }
+  .quartos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quartos .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  .imgQuarto1,
+  .imgQuarto2,
+  .imgQuarto3,
+  .imgQuarto4,
+  .imgQuarto5 {
+    width: 330px;
+  }
+}
+
 /*----------------Wrapper2-----------------------*/
 
 .wrapper2 {
