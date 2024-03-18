@@ -729,6 +729,21 @@ header ul li a:hover {
   background-position: center;
 }
 
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper2 .text {
+    left: -65px;
+  }
+  .wrapper4 .text {
+    height: 600px;
+  }
+}
+
 /*----------------Breakfast-----------------------*/
 .breakfast {
   background-color: #ffd97c;
