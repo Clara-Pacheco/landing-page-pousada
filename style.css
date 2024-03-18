@@ -735,14 +735,22 @@ header ul li a:hover {
 }
 
 @media screen and (max-width: 1150px) {
+  .wrapper2 .text {
+    padding-right: 200px;
+  }
+  .wrapper4 .text {
+    padding-right: 200px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .wrapper2 .text {
     left: -65px;
+    padding-right: 30px;
   }
   .wrapper4 .text {
     height: 600px;
+    padding-right: 30px;
   }
 }
 
@@ -783,7 +791,7 @@ header ul li a:hover {
   }
 
   .breakfast img {
-    width: 800px;
+    width: 100vw;
     height: 500px;
   }
 
