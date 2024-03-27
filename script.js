@@ -32,12 +32,12 @@ function img(anything) {
   buttonHome.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
 
   navLink.forEach((element) => {
-    element.style.color = "white";
+    element.style.color = "#9D89FA";
   });
 
-  navLink.forEach((element) => {
-    element.style.color = "white";
-  });
+  // navLink.forEach((element) => {
+  //   element.style.color = "white";
+  // });
 }
 function change(change) {
   const line = document.querySelector(".image");
