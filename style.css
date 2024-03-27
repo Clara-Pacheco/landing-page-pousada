@@ -720,7 +720,7 @@ header ul li a:hover {
 /*----------------Wrapper3-----------------------*/
 
 .wrapper3 {
-  background-image: url("../assets/cn11.jpg");
+  background-image: url("../assets/cn19.jpg");
   background-position: center;
 }
 
@@ -768,6 +768,9 @@ header ul li a:hover {
 }
 
 .breakfast .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 50px 50px 50px 100px;
 }
 
